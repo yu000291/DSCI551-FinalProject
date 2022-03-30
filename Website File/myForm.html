@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "utf-8">
+		<title>MRI image prediction</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+	<div class="navigation">
+        <a href="index.html">Description</a>
+        <a href="metadata.html">Metadata of Raw Data</a>
+        <a href="textdata.html">Raw Text Data</a>
+        <a href="https://finallit.herokuapp.com/">Alzheimer's Prediction Tool</a>
+        <a href="image.html">Explore Raw Image Data</a>
+        <a href="myForm.html">MRI Image Prediction</a>
+        <a href="mldata.html">Text Data Exploration</a>
+        <a href="imgdata.html">Image Data Exploration and Prediction</a>
+    </div>
+
+		<h1> Prediction Goal</h1>
+		<p><h4>How can we use classification as a mean to predict if the patient is demented based on MRI image?</h4></p>
+		<br>
+		<h1> Data Exploration</h1>
+		<p><h4>The image data are stored and retrieved from Firebase Storage</h4></p>
+		<p><h4>Two classes: ModerateDemented, NonDemented</h4></p>
+		<p><h4>104 Files for testing, 20 files for validation</h4></p>
+
+		<br>
+		<h1> Model Exploration</h1>
+		<p><h4>Use tf.keras.Sequential() to group a linear stack of layers into the prediction model</h4></p>
+		<p><h4>Model made up with three convolution blocks</h4></p>
+		<p><h4>Data are rescaled with standardization</h4></p>
+		<br>
+		<h1> Sample Prediction Results</h1>
+		<table align="center">
+			<tr>
+				<td>
+					<img src="test_img/1.jpg" alt="1">
+					<button type="button" onclick="alert('NonDemented')">see predicted result</button>
+				</td>
+				<td>
+					<img src="test_img/2.jpg" alt="2">
+					<button type="button" onclick="alert('ModerateDemented')">see predicted result</button>
+				</td>
+				<td>
+					<img src="test_img/3.jpg" alt="3">
+					<button type="button" onclick="alert('NonDemented')">see predicted result</button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="test_img/9.jpg" alt="9">
+					<button type="button" onclick="alert('ModerateDemented')">see predicted result</button>
+				</td>
+				<td>
+					<img src="test_img/10.jpg" alt="10">
+					<button type="button" onclick="alert('ModerateDemented')">see predicted result</button>
+				</td>
+				<td>
+					<img src="test_img/11.jpg" alt="11">
+					<button type="button" onclick="alert('ModerateDemented')">see predicted result</button>
+				</td>
+			</tr>
+		</table>
+		<br>
+		<h1> More Details</h1>
+		<p><h4>If you want to look deeper into the results or how the model is being built, you can view the python notebook for more details. </h4></p>
+		<p><h4>The complete results are uploaded to Firebase.</h4></p>
+
+
+
+
+	</body>
+</html>

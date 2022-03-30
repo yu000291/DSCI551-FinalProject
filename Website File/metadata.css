@@ -1,0 +1,51 @@
+body {
+	background-color: rgb(44, 43, 47  ); /*211, 213, 236);*/
+}
+/*navigation*/
+.navigation{
+	background-color: rgb(69, 73, 125 );
+	width: auto;
+	height: 40px;
+	margin: 20px;
+	padding-top: 15px;
+	border: 1px solid white;
+}
+
+.navigation a{
+    color: white;
+	font-size: 13px;
+	margin-left:20px;
+	padding: 10px;
+	text-decoration:none;
+}
+
+.navigation a:hover{
+	  background-color: rgb(186, 181, 232);
+}
+h1{
+	color:white;
+	margin-left: 20px;
+}
+h2{
+	color:rgb(186, 182, 196);
+	margin-left: 20px;
+}
+h3{
+	color:white;
+	margin-left: 20px;
+}
+h4{
+	color: rgb(218, 211, 211);
+	margin-left: 20px;
+}
+h5{
+	color:white;
+	margin-left: 20px;
+}
+p{
+	color:white;
+	margin-left: 20px;
+}
+a{
+	color:rgb(221, 209, 209);
+}

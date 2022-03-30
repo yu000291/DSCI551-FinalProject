@@ -1,0 +1,150 @@
+body {
+	background-color: rgb(44, 43, 47  ); /*211, 213, 236);*/
+}
+
+/*navigation*/
+.navigation{
+	background-color: rgb(69, 73, 125 );
+	width: auto;
+	height: 40px;
+	margin: 20px;
+	padding-top: 15px;
+	border: 1px solid white;
+}
+
+.navigation a{
+    color: white;
+	font-size: 13px;
+	margin-left:20px;
+	padding: 10px;
+	text-decoration:none;
+}
+
+.navigation a:hover{
+	  background-color: rgb(186, 181, 232);
+}
+
+
+h1{
+	color:white;
+	margin-left: 20px;
+}
+h2{
+	color:white;
+	margin-left: 150px;
+}
+h3{
+	color:grey;
+	margin-left: 20px;
+}
+h4{
+	color: rgb(165, 165, 165);
+	margin-left: 20px;
+}
+h5{
+	color:white;
+	margin-left: 20px;
+}
+p{
+	color:rgb(175, 166, 166);
+}
+b{
+	color: white;
+}
+
+table, th, td {
+	border: 1px solid black;
+	margin-left: 20px;
+	height: 30px;
+	border-collapse: collapse;
+}
+
+th, td {
+	text-align: center;
+}
+
+tr:nth-child(odd){
+	background-color: rgb(198, 201, 240);
+}
+tr:nth-child(even){
+	background-color: rgb(198,201,240);
+}
+
+tr:hover{
+  background-color: rgb(186, 181, 232);
+}
+
+.contactdiv{
+	float:left;
+	width:60%;
+}
+
+.imgdiv{
+	float: right;
+	margin-left:40px;
+	margin-top:10px;
+	width: 500px;
+}
+
+img {
+	float: right;
+	margin-left:40px;
+	margin-top:10px;
+	width: 200px;
+}
+
+
+
+
+
+.styleimg{
+	width: 20px;
+	display: none;
+}
+
+tr:hover img{
+	display:block;
+}
+
+/*Form Input*/
+.form{
+	background-color: white;
+	border-radius: 5px;
+	width:26%;
+	height:480px;
+	margin-left:500px;
+	margin-top: 50px;
+}
+
+.form form{
+	height: 500px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.form label{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	margin:5px;
+	width: 90%;
+	text-align: left;
+	float:left;
+}
+
+.form input,select{
+    width: 50%;
+    height: 35px;
+    float: right;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.button{
+	background-color: lightgreen;
+	margin-top: 25px;
+	margin-right:10px;
+	border-radius: 5px;
+}
+
+
